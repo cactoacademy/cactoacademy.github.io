@@ -1052,6 +1052,7 @@ h1,
         font-size: 7.5rem;
         font-weight: 400;
         font-family: 'Barlow Condensed', sans-serif;
+        line-height: 5.5rem;
     }
 
 h2,
@@ -3488,3 +3489,33 @@ select:focus::-webkit-input-placeholder
                 -ms-transform: scale(1.1);
                 transform: scale(1.1);
             }
+
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    h1.vlt-large-heading, .h1.vlt-large-heading {
+        font-size: 6.5rem;
+        line-height: 5.0rem;
+    }
+    .hide-small {
+        display: none;
+    }
+    h3, .h3 {
+        font-size: 2.125rem;
+        line-height: 1.35;
+    }
+}
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1.vlt-large-heading, .h1.vlt-large-heading {
+        font-size: 5.5rem;
+        line-height: 4.5rem;
+    }
+    .hide-small {
+        display: none;
+    }
+    h3, .h3 {
+        font-size: 2.125rem;
+        line-height: 1.35;
+    }
+}
