@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css\\framework",
-    "\\assets\\fonts\\Gilroy",
-    "\\assets\\scripts"
+    "\\assets\\css"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\css\\vlt-main.css",
   "PreviewInSolutionExplorer": false
 }
